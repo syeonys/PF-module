@@ -1,0 +1,45 @@
+:root {
+  --mainkor-font: "Pretendard Variable";
+  --maineng-font: "Raleway";
+  --mainnum-font: "Orbitron";
+
+  --background-color: #fff;
+  --main100-color: #fff;
+  --main200-color: #fff;
+  --main300-color: #fff;
+  --main400-color: #fff;
+  --main500-color: #fff;
+
+  --sub100-color: #fff;
+  --sub200-color: #fff;
+  --sub300-color: #fff;
+  --sub400-color: #fff;
+  --sub500-color: #fff;
+
+  --white: #fff;
+  --black100: #ddd;
+  --black200: #888;
+  --black300: #333;
+  --black: #000;
+
+  font-family: var(--mainkor-font), var(--maineng-font), var(--mainnum-font);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  color: var(--black300);
+  background-color: var(--background-color);
+}
+
+@media (max-width:800px) {
+  :root {
+    font-size: 16px;
+  }
+
+}
