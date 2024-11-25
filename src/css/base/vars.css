@@ -3,8 +3,8 @@
   --maineng-font: "Raleway";
   --mainnum-font: "Orbitron";
 
-  --background-color: #fff;
-  --main100-color: #fff;
+  --background-color: #ffb286;
+  --main100-color: #0400ff;
   --main200-color: #fff;
   --main300-color: #fff;
   --main400-color: #fff;
@@ -23,7 +23,7 @@
   --black: #000;
 
   font-family: var(--mainkor-font), var(--maineng-font), var(--mainnum-font);
-  font-size: 16px;
+  font-size: 30px;
   line-height: 1.5;
   font-weight: 400;
 
